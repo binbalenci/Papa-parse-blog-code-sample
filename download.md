@@ -1,3 +1,4 @@
+```html
 <papa-unparse header json-array="[[rows]]"></papa-unparse>
 <button onclick="javascript:download">Download</button>
 
@@ -6,3 +7,4 @@
     document.querySelector('papa-unparse').downloadCsv('somefile.csv');
   }
 </script>
+```
